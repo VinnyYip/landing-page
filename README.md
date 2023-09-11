@@ -1,1 +1,2 @@
 # landing-page
+For this project, I will be creating a landing page that will cover the topic of game, Valorant, by Riot. I have an immense passion for that game and because of that I will demonstrate my skills in CSS and HTML to the best of my abilities by the time I have completed the project.
