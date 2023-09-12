@@ -122,8 +122,27 @@ a{
 
 /*SIGN UP*/
 .sign-up{
+    display: flex;
+    align-items: center;
     background-color: white;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.sign-text{
+    margin-right:400px;
+}
+
+.subscribe-button button{
+    border-radius: 10px;
+    font-size:16px;
+}
+
+/*FOOTER*/
+.footer{
     display:flex;
     justify-content: center;
-    align-items: center;
+    color:white
 }
