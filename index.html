@@ -8,14 +8,14 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="header">
+        <nav class="header">
             <img src="images/valorant-logo-transparent-free-png.png" alt="valorant-logo">
             <ul class="right-side-links">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Characters</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#content">Roles</a></li>
+                <li><a href="#quote">Quote</a></li>
+                <li><a href="#sign-up">Contact</a></li>
             </ul>
-        </div>
+        </nav>
         <div class="description">
             <div class="val-description">
                 <h1>VALORANT</h1>
@@ -28,7 +28,7 @@
                 <img src="images/jett.jpeg" alt="picture of Jett">
             </div>
         </div>
-        <div class="content">
+        <div id="content" class="content">
             <h2>ROLES</h2>
             <div class="container">
                 <div class="info">
@@ -49,15 +49,20 @@
                 </div>
             </div>
         </div>
-        <div class="quote">
+        <div id="quote" class="quote">
             <div class="chamber-quote">
                 "You want to play? Let's play."
             </div>
             <div class="chamber-ref">
                 - Chamber
             </div>
+            <button onmousedown="sound1.play()">Click for Surprise</button>
+            <script>
+                var sound1=new Audio();
+                sound1.src="images/chamber.mp3"
+            </script>
         </div>
-        <div class="sign-up">
+        <div id="sign-up" class="sign-up">
             <div class="sign-text">
                 <h2>Keep yourself updated with my gameplay of Valorant!</h2>
                 <p>Subscribe to me for more content!</p>
